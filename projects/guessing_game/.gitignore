@@ -1,3 +1,1 @@
-.DS_Store
-projects/*/.gitignore
-projects/**/target
+/target
