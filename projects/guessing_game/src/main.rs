@@ -21,7 +21,7 @@ fn main() {
             Ok(num) => num,
             Err(_) => {
                 println!("Please type a number!");
-                return;
+                continue;
             }
         };
         match guess_int.cmp(&secret) {
